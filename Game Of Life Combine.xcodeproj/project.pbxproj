@@ -13,6 +13,16 @@
 		7273547C263785A5004FB0C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72735467263785A2004FB0C8 /* ContentView.swift */; };
 		7273547D263785A5004FB0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72735468263785A5004FB0C8 /* Assets.xcassets */; };
 		7273547E263785A5004FB0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72735468263785A5004FB0C8 /* Assets.xcassets */; };
+		7273548A263785BA004FB0C8 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72735489263785BA004FB0C8 /* Node.swift */; };
+		7273548B263785BA004FB0C8 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72735489263785BA004FB0C8 /* Node.swift */; };
+		7273548F263785D2004FB0C8 /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273548E263785D2004FB0C8 /* Metronome.swift */; };
+		72735490263785D2004FB0C8 /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273548E263785D2004FB0C8 /* Metronome.swift */; };
+		72735494263785E2004FB0C8 /* LifeBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72735493263785E2004FB0C8 /* LifeBoard.swift */; };
+		72735495263785E2004FB0C8 /* LifeBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72735493263785E2004FB0C8 /* LifeBoard.swift */; };
+		7273549926378672004FB0C8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273549826378672004FB0C8 /* Extensions.swift */; };
+		7273549A26378672004FB0C8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273549826378672004FB0C8 /* Extensions.swift */; };
+		7273549E26379B27004FB0C8 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273549D26379B27004FB0C8 /* BoardView.swift */; };
+		7273549F26379B27004FB0C8 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273549D26379B27004FB0C8 /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,11 @@
 		72735475263785A5004FB0C8 /* Game Of Life Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Of Life Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72735477263785A5004FB0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72735478263785A5004FB0C8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		72735489263785BA004FB0C8 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		7273548E263785D2004FB0C8 /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		72735493263785E2004FB0C8 /* LifeBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeBoard.swift; sourceTree = "<group>"; };
+		7273549826378672004FB0C8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7273549D26379B27004FB0C8 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +74,11 @@
 			children = (
 				72735466263785A2004FB0C8 /* Game_Of_Life_CombineApp.swift */,
 				72735467263785A2004FB0C8 /* ContentView.swift */,
+				7273549D26379B27004FB0C8 /* BoardView.swift */,
+				72735489263785BA004FB0C8 /* Node.swift */,
+				7273548E263785D2004FB0C8 /* Metronome.swift */,
+				72735493263785E2004FB0C8 /* LifeBoard.swift */,
+				7273549826378672004FB0C8 /* Extensions.swift */,
 				72735468263785A5004FB0C8 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,6 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7273549E26379B27004FB0C8 /* BoardView.swift in Sources */,
+				72735494263785E2004FB0C8 /* LifeBoard.swift in Sources */,
+				7273549926378672004FB0C8 /* Extensions.swift in Sources */,
+				7273548F263785D2004FB0C8 /* Metronome.swift in Sources */,
+				7273548A263785BA004FB0C8 /* Node.swift in Sources */,
 				7273547B263785A5004FB0C8 /* ContentView.swift in Sources */,
 				72735479263785A5004FB0C8 /* Game_Of_Life_CombineApp.swift in Sources */,
 			);
@@ -196,6 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7273549F26379B27004FB0C8 /* BoardView.swift in Sources */,
+				72735495263785E2004FB0C8 /* LifeBoard.swift in Sources */,
+				7273549A26378672004FB0C8 /* Extensions.swift in Sources */,
+				72735490263785D2004FB0C8 /* Metronome.swift in Sources */,
+				7273548B263785BA004FB0C8 /* Node.swift in Sources */,
 				7273547C263785A5004FB0C8 /* ContentView.swift in Sources */,
 				7273547A263785A5004FB0C8 /* Game_Of_Life_CombineApp.swift in Sources */,
 			);

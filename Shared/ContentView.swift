@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var board = LifeBoard()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text(board.description)
+                .padding()
+            HStack {
+                Button("Start") { board.start() }
+                Button("Stop") { board.start() }
+            }
+        }
+        
     }
 }
 
